@@ -1,0 +1,27 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
+public class zadanie4 {
+public static void main(String[] args) {
+	List <String> tytul = new ArrayList<>();
+	List <Integer> rok = new ArrayList<>();
+	Scanner scan= new Scanner(System.in);
+	System.out.println("Podaj tytul 1-go filmu:");
+	String tytul1 =scan.nextLine();
+	tytul.add(tytul1);
+	System.out.println("Podaj rok 1-go filmu:");
+	int rok1 =scan.nextInt();
+	rok.add(rok1);
+	System.out.println("Podaj tytul 2-go filmu:");
+	String nic =scan.nextLine();
+	String tytul2 =scan.nextLine();
+	tytul.add(tytul2);
+	System.out.println("Podaj rok 2-go filmu:");
+	int rok2 =scan.nextInt();
+	rok.add(rok2);
+	System.out.println("filmy:");
+	System.out.println(tytul);
+	System.out.println("rok wydania:");
+	System.out.println(rok);
+}
+}

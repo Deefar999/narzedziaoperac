@@ -1,0 +1,23 @@
+import java.util.LinkedList;
+import java.util.Scanner;
+public class zadanie3 {
+public static void main(String[] args) {
+	LinkedList <String> nazwa1 = new LinkedList<String>();
+	LinkedList <Integer> ilosc1 = new LinkedList<Integer>();
+	LinkedList <Integer> cena1 = new LinkedList<Integer>();
+	Scanner scan= new Scanner(System.in);
+	System.out.println("Podaj nazwe:");
+	String nazwa2 =scan.nextLine();
+	System.out.println("Podaj cene:");
+	int ilosc2 =scan.nextInt();
+	System.out.println("Podaj ilosc:");
+	int cena2 =scan.nextInt();
+	nazwa1.add(nazwa2);
+	ilosc1.add(ilosc2);
+	cena1.add(cena2);
+	System.out.println("nazwa:" +nazwa1);
+	System.out.println("ilosc:"+ilosc1);
+	System.out.println("cena:"+cena1);
+	
+}
+}

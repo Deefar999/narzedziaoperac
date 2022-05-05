@@ -1,0 +1,32 @@
+import java.util.LinkedList;
+import java.util.Scanner;
+public class Zadanie5 {
+public static void main(String[] args) {
+	LinkedList <String> tytul = new LinkedList<String>();
+	LinkedList <String> artysta = new LinkedList<String>();
+	LinkedList <String> gatunek = new LinkedList<String>();
+	Scanner scan= new Scanner(System.in);
+	System.out.println("Podaj tytul:");
+	String tytul1 =scan.nextLine();
+	System.out.println("Podaj artyste:");
+	String artysta1 =scan.nextLine();
+	System.out.println("Podaj gatunek:");
+	String gatunek1 =scan.nextLine();
+	tytul.add(tytul1);
+	artysta.add(artysta1);
+	gatunek.add(gatunek1);
+	System.out.println("Podaj tytul 2:");
+	String tytul2 =scan.nextLine();
+	System.out.println("Podaj artyste 2:");
+	String artysta2 =scan.nextLine();
+	System.out.println("Podaj gatunek 2:");
+	String gatunek2 =scan.nextLine();
+	tytul.add(tytul2);
+	artysta.add(artysta2);
+	gatunek.add(gatunek2);
+	System.out.println("tytul:" +tytul);
+	System.out.println("artysta:"+artysta);
+	System.out.println("gatunek:"+gatunek);
+	
+}
+}

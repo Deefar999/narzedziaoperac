@@ -1,0 +1,14 @@
+class batoniki{
+	public String marka="mars";
+}
+public class Zadanie1 {
+public static void main(String[] args) {
+	batony<batoniki>k= new batony<batoniki>(new batoniki());
+	batony<String>s= new batony<String>("czekoladowy");
+	batony<Integer>i= new batony<Integer>(3);
+	batoniki mar=k.zwroc();
+	System.out.println("Marka batona:"+mar.marka);
+	System.out.println("cena batona:"+i.zwroc());
+	System.out.println("opis batona:"+s.zwroc());
+}
+}
